@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Jua', sans-serif;
+    background: url(/img/fondo2.jpg) no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*Header de la Pagina*/
+
+header{
+    background-image: url(/img/fondo.jpg);
+    border-bottom: 4px solid rgb(226, 183, 10);
+}
+header nav div img{
+    height: 150px;
+    border-top: 4px solid rgb(226, 183, 10);
+    border-right: 4px solid rgb(226, 183, 10);
+    border-left: 4px solid rgb(226, 183, 10);
+    margin-top: 0px;
+}
+header nav div div a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 35px;
+    color: #400;
+    -webkit-text-stroke: 1px rgb(226, 183, 10); 
+}
+
+/*Main de la Pagina*/
+/*INICIO*/
+.sectionUno {
+    display: flex;
+    justify-content: center;
+}
+.sectionUno .tituloCentral {
+    align-items: center;
+    width: 700px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 80px;
+    color: #fff;
+    background-color: #400;
+    border-radius: 50%;
+    border: 4px solid #f00;
+}
+.sectionUno .tituloCentral h1 {
+    font-size: 80px;
+    -webkit-text-stroke: .9px #f00;
+}
+.sectionUno .tituloCentral h2 {
+    font-size: 50px;
+    -webkit-text-stroke: .6px #f00;
+}
+.sectionDos .texto  {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    color: rgb(226, 183, 10);
+}
+
+/*PRODUCTOS*/
+.productosImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.productosImg img {
+    width: 300px;
+    margin: 20px;
+    border: 3px solid rgb(226, 183, 10);
+}
+
+/*NOSOTROS*/
+.somosContainer {
+    display: flex;
+    margin: 30px;
+}
+.somosContainer .textContainer {
+    text-align: justify;
+    background-color: rgb(226, 183, 10);
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 19px;
+}
+.somosContainer .imgContainer img{
+    height: 620px;
+    width: 650px;
+    border: 3px solid rgb(226, 183, 10);
+}
+
+.somosContainer .textContainer h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Footer de la Pagina*/
+
+footer {
+    margin-top: auto;
+}
+.pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 4px solid rgb(226, 183, 10);
+    background-image: url(../img/fondo.jpg);
+}
+.pie .texto {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.pie .texto h2{
+    font-size: 40px;
+    letter-spacing: 7px;
+    color: #400;
+    -webkit-text-stroke: 1px rgb(226, 183, 10);
+    font-weight: 100;
+}
+.pie .logos {
+    display: flex;
+    margin-bottom: 25px;
+}
+.pie .logos img{
+    margin: 20px;
+    width: 50px;   
+}
+.pie .derechos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.pie .derechos h2{
+    font-size: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.pie .derechos h2 b {
+    font-size: 15px;
+}
+.pie .derechos img {
+    width: 20px;
+}
