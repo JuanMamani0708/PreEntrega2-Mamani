@@ -24,14 +24,16 @@ header nav div img{
     border-top: 4px solid rgb(226, 183, 10);
     border-right: 4px solid rgb(226, 183, 10);
     border-left: 4px solid rgb(226, 183, 10);
-    margin-top: 0px;
 }
-header nav div div a{
+header nav div div ul li{
+    font-size: 35px;
     text-decoration: none;
     list-style: none;
-    font-size: 35px;
+}
+header nav div div ul li a{
+    margin: 20px;
     color: #400;
-    -webkit-text-stroke: 1px rgb(226, 183, 10); 
+    -webkit-text-stroke: 1px rgb(226, 183, 10);
 }
 
 /*Main de la Pagina*/
