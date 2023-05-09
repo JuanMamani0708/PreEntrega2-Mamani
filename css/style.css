@@ -14,7 +14,8 @@ body {
     min-height: 100vh;
 }
 
-/*Header de la Pagina*/
+/*HEADER DE LA WEB*/
+/*INICIO DEL HEADER*/
 
 header {
     display: flex;
@@ -45,9 +46,11 @@ header nav div div ul li a {
     color: #400;
     -webkit-text-stroke: 1px rgb(226, 183, 10);
 }
+/*FIN DEL HEADER*/
 
-/*Main de la Pagina*/
-/*INICIO*/
+
+/*MAIN DE LA PAGINA INICIO*/
+
 .sectionUno {
     display: flex;
     justify-content: center;
@@ -82,8 +85,10 @@ header nav div div ul li a {
     margin-bottom: 120px;
     color: rgb(226, 183, 10);
 }
+/*FIN DE LA PAGINA INICIO*/
 
-/*PRODUCTOS*/
+
+/*MAIN DE LA PAGINA PRODUCTOS*/
 .productosImg {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -99,8 +104,10 @@ section div img {
     height: 100%;
     object-fit: cover;
 }
+/*FIN DE LA PAGINA PRODUCTOS*/
 
-/*NOSOTROS*/
+
+/*MAIN DE LA PAGINA NOSOTROS*/
 .somosContainer {
     display: flex;
     margin: 30px;
@@ -125,7 +132,10 @@ section div img {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/*FIN DE LA PAGINA NOSOTROS*/
 
+
+/*MAIN DE LA PAGINA CONTACTO*/
 .formContact {
     margin: auto;
     margin-top: 30px;
@@ -173,8 +183,9 @@ section div img {
 .contact label {
     font-weight: 700px;
 }
+/*FIN DE LA PAGINA CONTACTO*/
 
-/*Footer de la Pagina*/
+/*FOOTER DE LA WEB*/
 footer {
     margin-top: auto;
     display: flex;
@@ -222,8 +233,11 @@ footer .derechos h3 b {
 footer .derechos img {
     width: 20px;
 }
+/*FIN DEL FOOTER*/
 
-/* Inicio de las Medias Queris*/
+
+/* INICIO DE LAS MEDIAS QUERIES*/
+
 @media screen and (max-width: 1250px) {
     .productosImg {
         display: grid;
@@ -378,3 +392,4 @@ footer .derechos img {
         margin-top: 10px;
     }
 }
+/*FIN DE LAS MEDIAS QUERIES*/
