@@ -130,21 +130,24 @@ section div img {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: center;    
+    text-align: center;
     background: #FFF;
     width: 400px;
     box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
 }
-.formContact div{
+
+.formContact div {
     width: 100%;
     background: rgb(226, 183, 10);
     overflow: hidden;
     color: white;
 }
+
 .formContact div span {
     text-align: center;
     display: block;
 }
+
 .formContact div span img {
     width: 200px;
     padding: 20px;
@@ -152,19 +155,25 @@ section div img {
     padding-bottom: 30px;
     border-radius: 100%;
 }
+
 .contact {
     padding: .8rem;
     overflow: hidden;
     color: gray;
 }
-.contact label,.contact input,.contact textarea{
+
+.contact label,
+.contact input,
+.contact textarea {
     display: block;
     width: 100%;
     margin-bottom: 5px;
 }
+
 .contact label {
     font-weight: 700px;
 }
+
 /*Footer de la Pagina*/
 footer {
     margin-top: auto;
