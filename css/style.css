@@ -16,14 +16,18 @@ body {
 /*Header de la Pagina*/
 
 header{
+    display: flex;
     background-image: url(/img/fondo.jpg);
     border-bottom: 4px solid rgb(226, 183, 10);
 }
-header nav div img{
+header img{
     height: 150px;
     border-top: 4px solid rgb(226, 183, 10);
     border-right: 4px solid rgb(226, 183, 10);
     border-left: 4px solid rgb(226, 183, 10);
+}
+header nav{
+    margin: auto;
 }
 header nav div div ul li{
     font-size: 35px;
@@ -31,7 +35,7 @@ header nav div div ul li{
     list-style: none;
 }
 header nav div div ul li a{
-    margin: 20px;
+    margin: 30px;
     color: #400;
     -webkit-text-stroke: 1px rgb(226, 183, 10);
 }
