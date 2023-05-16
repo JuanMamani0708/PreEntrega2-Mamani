@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Jua', sans-serif;
-    background: url(/img/fondo2.jpg) no-repeat center fixed;
+    background: url(../img/fondo2.jpg) no-repeat center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@ body {
 
 header {
     display: flex;
-    background-image: url(/img/fondo.jpg);
+    background-image: url(../img/fondo.jpg);
     border-bottom: 4px solid rgb(226, 183, 10);
     margin-bottom: 10px;
 }
