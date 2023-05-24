@@ -73,23 +73,30 @@ section img {
   height: 100%;
   object-fit: cover; }
 
-.somosContainer {
+.somos h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  background-color: #e2b70a;
+  padding: 10px;
+  color: #400; }
+
+.somos .somosContainer {
   display: flex;
   margin: 30px; }
-  .somosContainer .imgContainer img {
-    height: 620px;
+  .somos .somosContainer .imgContainer img {
+    height: 650px;
     width: 650px;
     border: 3px solid #e2b70a; }
-  .somosContainer .textContainer {
+  .somos .somosContainer .textContainer {
+    overflow-y: auto;
     text-align: justify;
     background-color: #e2b70a;
     margin-left: 20px;
     padding: 10px;
     font-size: 19px; }
-    .somosContainer .textContainer h1 {
-      text-align: center;
-      margin-top: 10px;
-      margin-bottom: 10px; }
+    .somos .somosContainer .textContainer p {
+      color: #f00; }
 
 .formContact {
   margin: auto;
@@ -164,6 +171,19 @@ footer {
     footer .derechos img {
       width: 20px; }
 
+@media screen and (max-width: 1325px) {
+  .somos .somosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .somos .somosContainer .imgContainer {
+      margin-bottom: 30px; }
+      .somos .somosContainer .imgContainer img {
+        height: 500px;
+        width: 600px; }
+    .somos .somosContainer .textContainer {
+      margin-right: 20px; } }
+
 @media screen and (max-width: 1250px) {
   .productosImg {
     display: grid;
@@ -226,10 +246,23 @@ footer {
     color: #e2b70a; } }
 
 @media screen and (max-width: 700px) {
+  .somos .somosContainer .imgContainer img {
+    height: 400px;
+    width: 500px; }
   .productosImg {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: 250px; } }
+
+@media screen and (max-width: 600px) {
+  .somos .somosContainer .imgContainer img {
+    height: 300px;
+    width: 400px; } }
+
+@media screen and (max-width: 500px) {
+  .somos .somosContainer .imgContainer img {
+    height: 200px;
+    width: 300px; } }
 
 @media screen and (max-width: 510px) {
   .sectionUno .tituloCentral {
@@ -256,6 +289,11 @@ footer {
     margin-bottom: 50px;
     margin-left: 20px;
     color: #e2b70a; } }
+
+@media screen and (max-width: 400px) {
+  .somos .somosContainer .imgContainer img {
+    height: 200px;
+    width: 250px; } }
 
 @media screen and (max-width: 370px) {
   header img {
