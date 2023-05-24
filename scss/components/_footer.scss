@@ -1,0 +1,42 @@
+footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 4px solid rgb(226, 183, 10);
+    background-image: url(../img/fondo.jpg);
+    h2{
+        margin-top: 30px;
+        font-size: 40px;
+        letter-spacing: 7px;
+        color: #400;
+        -webkit-text-stroke: 1px rgb(226, 183, 10);
+        font-weight: 100;
+    }
+    .logos {
+        display: flex;
+        margin-bottom: 25px;
+        a {
+            img {
+                margin: 20px;
+                width: 50px;
+            }
+        }
+    }
+    .derechos {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        h3 {
+            font-size: 15px;
+            margin-left: 8px;
+            margin-right: 8px;
+            b {
+                font-size: 15px;
+            }
+        }
+        img {
+            width: 20px;
+        }
+    }
+}
