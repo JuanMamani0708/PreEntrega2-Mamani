@@ -255,6 +255,8 @@ footer {
     grid-auto-rows: 250px; } }
 
 @media screen and (max-width: 600px) {
+  .formContact {
+    width: 250px; }
   .somos .somosContainer .imgContainer img {
     height: 300px;
     width: 400px; } }
