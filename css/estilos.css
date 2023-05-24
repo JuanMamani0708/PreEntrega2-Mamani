@@ -30,7 +30,10 @@ header {
       header nav div div ul li a {
         margin: 30px;
         color: #400;
-        -webkit-text-stroke: 1px #e2b70a; }
+        -webkit-text-stroke: 1px #e2b70a;
+        transition: 3s; }
+        header nav div div ul li a:hover {
+          transform: scale(1.2); }
 
 .sectionUno {
   display: flex;
@@ -157,7 +160,10 @@ footer {
     margin-bottom: 25px; }
     footer .logos a img {
       margin: 20px;
-      width: 50px; }
+      width: 50px;
+      transition: .5s; }
+      footer .logos a img:hover {
+        transform: scale(1.2); }
   footer .derechos {
     display: flex;
     justify-content: center;
