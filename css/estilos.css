@@ -60,7 +60,22 @@ header {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 120px;
-  color: #e2b70a; }
+  color: #fff;
+  -webkit-text-stroke: 1px #e2b70a; }
+
+section .textoProductos {
+  text-align: center; }
+  section .textoProductos h1 {
+    margin: 40px;
+    color: #fff;
+    font-size: 60px;
+    -webkit-text-stroke: 1px #e2b70a; }
+  section .textoProductos p {
+    margin: 40px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    color: #fff;
+    -webkit-text-stroke: 1px #e2b70a; }
 
 section .productosImg {
   display: grid;
@@ -74,7 +89,8 @@ section .productosImg {
 section img {
   width: 100%;
   height: 100%;
-  object-fit: cover; }
+  object-fit: cover;
+  border: solid 3px #e2b70a; }
 
 .somos h1 {
   text-align: center;
@@ -85,21 +101,34 @@ section img {
   color: #400; }
 
 .somos .somosContainer {
-  display: flex;
   margin: 30px; }
   .somos .somosContainer .imgContainer img {
-    height: 650px;
-    width: 650px;
-    border: 3px solid #e2b70a; }
+    height: 450px;
+    width: 450px;
+    border: 3px solid #e2b70a;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    float: right; }
   .somos .somosContainer .textContainer {
-    overflow-y: auto;
-    text-align: justify;
-    background-color: #e2b70a;
-    margin-left: 20px;
-    padding: 10px;
-    font-size: 19px; }
+    margin-left: 15px;
+    font-size: 25px; }
     .somos .somosContainer .textContainer p {
-      color: #f00; }
+      color: #fff;
+      -webkit-text-stroke: 1px #e2b70a; }
+
+.textoContacto {
+  text-align: center; }
+  .textoContacto h1 {
+    background-color: #e2b70a;
+    margin: 40px 0 40px 0;
+    padding: 10px;
+    color: #400; }
+  .textoContacto p {
+    margin: 40px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    color: #fff;
+    -webkit-text-stroke: 1px #e2b70a; }
 
 .formContact {
   margin: auto;
@@ -178,17 +207,14 @@ footer {
       width: 20px; }
 
 @media screen and (max-width: 1325px) {
-  .somos .somosContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .somos .somosContainer .imgContainer {
-      margin-bottom: 30px; }
-      .somos .somosContainer .imgContainer img {
-        height: 500px;
-        width: 600px; }
-    .somos .somosContainer .textContainer {
-      margin-right: 20px; } }
+  .somos .somosContainer .imgContainer {
+    margin-bottom: 30px; }
+    .somos .somosContainer .imgContainer img {
+      height: 400px;
+      width: 400px;
+      float: right; }
+  .somos .somosContainer .textContainer {
+    margin-right: 20px; } }
 
 @media screen and (max-width: 1250px) {
   .productosImg {
@@ -212,6 +238,9 @@ footer {
         box-shadow: none; } }
 
 @media screen and (max-width: 825px) {
+  .somos .somosContainer .imgContainer img {
+    height: 300px;
+    width: 300px; }
   header img {
     height: 250px;
     width: 250px; }
@@ -248,13 +277,18 @@ footer {
     margin-top: 30px;
     margin-right: 30px;
     margin-bottom: 100px;
-    margin-left: 30px;
-    color: #e2b70a; } }
+    margin-left: 30px; } }
 
 @media screen and (max-width: 700px) {
-  .somos .somosContainer .imgContainer img {
-    height: 400px;
-    width: 500px; }
+  .somos .somosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .somos .somosContainer .imgContainer img {
+      height: 400px;
+      width: 500px; }
+    .somos .somosContainer .imgContainer .textContainer {
+      text-align: justify; }
   .productosImg {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -295,8 +329,7 @@ footer {
     margin-top: 30px;
     margin-right: 20px;
     margin-bottom: 50px;
-    margin-left: 20px;
-    color: #e2b70a; } }
+    margin-left: 20px; } }
 
 @media screen and (max-width: 400px) {
   .somos .somosContainer .imgContainer img {
