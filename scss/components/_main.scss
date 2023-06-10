@@ -101,6 +101,35 @@ section {
         }
     }
 }
+//<!-- INICIO DEL MAIN "SUCURSALES" -->
+
+section {
+    .tituloSucursales {
+        text-align: center;
+        margin: 50px 0;
+        color: #fff;
+        font-size: 60px;
+        -webkit-text-stroke: 1px rgb(226, 183, 10);
+
+    }
+    #carouselExampleCaptions {
+        position: relative;
+        margin: 50px 50px 100px 50px;
+        .carousel-item{
+            h5 {
+                position: absolute;
+                width: 100%;
+                margin-top: 50%;
+                color: rgb(226, 183, 10);
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
+                text-align: center;
+                border-left: 3px solid rgb(226, 183, 10);
+                border-right: 3px solid rgb(226, 183, 10);
+            }
+        }
+    }
+}
+
 //<!-- INICIO DEL MAIN "CONTACTO" -->
 .textoContacto {
     text-align: center;

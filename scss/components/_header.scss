@@ -10,6 +10,15 @@ header {
         border-left: 4px solid rgb(226, 183, 10);
     }
     nav {
+        div {
+            .navbar-toggler {
+                background-color: rgb(226, 183, 10);
+                border: 3px solid #f00;
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+        }
         margin: auto;
         div {
             div {
